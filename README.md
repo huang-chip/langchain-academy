@@ -7,6 +7,8 @@ This is a growing set of modules focused on foundational concepts within the Lan
 Module 0 is basic setup and Modules 1 - 5 focus on building in LangGraph, progressively adding more advanced themes.  Module 6 addresses deploying your agents. 
 In each module folder, you'll see a set of notebooks. A link to the LangChain Academy lesson is at the top of each notebook to guide you through the topic. Each module also has a `studio` subdirectory, with a set of relevant graphs that we will explore using the LangGraph API and Studio.
 
+> 我下一步计划看[官方视频教程--项目：使用 LangGraph 的深度代理](https://academy.langchain.com/courses/take/deep-agents-with-langgraph/lessons/68193153-welcome)
+
 ## Setup
 
 ### ✅Python version
@@ -74,6 +76,23 @@ quick, and persistent search results.
 It's easy to sign up and offers a very generous free tier. Some lessons (in Module 4) will use Tavily. 
 
 * Set `TAVILY_API_KEY` in your environment.
+
+### Set up Studio 完整启动指令
+因为你用的是虚拟环境，因此需要在虚拟环境激活后，方可使用全局命令，否则就会出现 “无法将“langgraph”项识别为 cmdlet、函数、脚本文件或可运行程序的名称。”
+
+如果你使用了虚拟环境（如venv等），需要确保已激活该环境，激活后，命令行前缀会显示环境名称（如(lc-academy-env)），此时再尝试运行langgraph dev。
+```
+cd lc-academy-env\Scripts
+.\activate
+
+# 回到主目录，在这个终端中正常执行命令即可
+cd ../../
+```
+
+```
+cd module-1/studio
+langgraph dev
+```
 
 ### Set up Studio
 
