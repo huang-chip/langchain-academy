@@ -9,16 +9,16 @@ In each module folder, you'll see a set of notebooks. A link to the LangChain Ac
 
 ## Setup
 
-### Python version
+### ✅Python version
 
 To get the most out of this course, please ensure you're using Python 3.11 or later. 
 This version is required for optimal compatibility with LangGraph. If you're on an older version, 
-upgrading will ensure everything runs smoothly.
+upgrading will ensure everything runs smoothly.【我的python版本是：Python 3.13.6】
 ```
 python3 --version
 ```
 
-### Clone repo
+### ✅Clone repo
 ```
 git clone https://github.com/langchain-ai/langchain-academy.git
 $ cd langchain-academy
@@ -32,7 +32,7 @@ $ python3 -m venv lc-academy-env
 $ source lc-academy-env/bin/activate
 $ pip install -r requirements.txt
 ```
-#### Windows Powershell
+#### ✅Windows Powershell
 ```
 PS> python3 -m venv lc-academy-env
 PS> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
@@ -40,7 +40,7 @@ PS> lc-academy-env\scripts\activate
 PS> pip install -r requirements.txt
 ```
 
-### Running notebooks
+### Running notebooks【我用cursor提供的插件，在编辑器中调试】
 If you don't have Jupyter set up, follow the installation instructions [here](https://jupyter.org/install).
 ```
 $ jupyter notebook
